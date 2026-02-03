@@ -1,0 +1,8 @@
+| Kavram               | Ne yapar                    |
+| -------------------- | --------------------------- |
+| Dependency Injection | Bağımlılığı dışarıdan verir |
+| Interface            | Soyutlama                   |
+| Spring               | DI container                |
+| @Qualifier           | Hangi implementasyon        |
+| @Primary             | Varsayılan                  |
+| @Profile             | Ortama göre                 |
