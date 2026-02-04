@@ -28,6 +28,8 @@ public class ListAndSet {
 
     static void main() {
         List<String> mystrin=new ArrayList<String>();
+
+        List<Integer> myint=new ArrayList<>(Arrays.asList(new Integer[]{1,2,3,4,5,6,7,8,9,10}));
         mystrin.add("1");
         mystrin.add("3");
         mystrin.add("2");
