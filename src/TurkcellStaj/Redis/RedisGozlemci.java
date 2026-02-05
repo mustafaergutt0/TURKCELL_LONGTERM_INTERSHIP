@@ -18,6 +18,7 @@ public class RedisGozlemci {
             jedis.set("kullanici", kullaniciAdi);
 
 
+
             // Dosyaya Yazma
             FileWriter writer = new FileWriter("veritabani.txt");
             writer.write(kullaniciAdi);
