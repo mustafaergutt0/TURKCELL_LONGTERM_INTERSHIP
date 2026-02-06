@@ -33,10 +33,12 @@ interface Bildirim {
 
 // 2. Somut Ürünler
 class EmailBildirim implements Bildirim {
+    @Override
     public void mesajGonder() { System.out.println("E-posta gönderildi."); }
 }
 
 class SMSBildirim implements Bildirim {
+    @Override
     public void mesajGonder() { System.out.println("SMS gönderildi."); }
 }
 

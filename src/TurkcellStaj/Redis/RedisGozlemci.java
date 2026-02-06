@@ -4,6 +4,13 @@ import redis.clients.jedis.Jedis;
 import java.io.*;
 import java.util.Scanner;
 
+
+// Jedis Redis cache mechanicsm
+
+// fakrını görmek için normaal txt den veriyi alıp okuyoruz birde redisten cachelenmiş veriyi aradak fark muazzam
+// birde bunun milyonlarca veri olan db geldiğin düşünsene
+
+
 public class RedisGozlemci {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
